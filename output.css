@@ -1,0 +1,17 @@
+/* Error: -70vh and 1vw have incompatible units.
+ *     ,
+ * 342 |     margin-top: $initialCloudTop + 1vw; 
+ *     |                 ^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   styles/globals.scss 342:17  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: -70vh and 1vw have incompatible units.\a     \2577 \a 342 \2502      margin-top: $initialCloudTop + 1vw; \a     \2502                  ^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   styles/globals.scss 342:17  root stylesheet";
+}

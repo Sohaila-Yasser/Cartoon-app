@@ -72,7 +72,7 @@ const FilmDetailPage = () => {
           <p><span className="bold">IMDB Votes:</span> {filmDetails.imdbVotes}</p>
           <p><span className="bold">Type:</span> {filmDetails.Type}</p>
           <p><span className="bold">DVD:</span> {filmDetails.DVD}</p>
-          <p><span className="bold">Website:</span><a href="https://spacetoon.com">https://spacetoon.com</a>/</p>
+          <p><span className="bold">Website:</span> <a href="https://spacetoon.com">https://spacetoon.com</a>/</p>
       </div>
     </div>
   );
